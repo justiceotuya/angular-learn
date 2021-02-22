@@ -9,9 +9,9 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
-    new Recipe('Banana Bread', 'this is my favorite banana bread recipe.', 'https://cdn.sallysbakingaddiction.com/wp-content/uploads/2018/10/moist-banana-bread.jpg'),
-    new Recipe('Banana Bread', 'this is my favorite banana bread recipe.', 'https://cookieandkate.com/images/2015/11/healthy-honey-whole-wheat-banana-bread-2.jpg'),
-    new Recipe('Banana Bread', 'this is my favorite banana bread recipe.', 'https://cookieandkate.com/images/2020/05/healthy-banana-bread-recipe-5.jpg'),
+    new Recipe('Banana Bread', 'this is my favorite banana bread recipe 1.', 'https://cdn.sallysbakingaddiction.com/wp-content/uploads/2018/10/moist-banana-bread.jpg'),
+    new Recipe('Banana Bread', 'this is my favorite banana bread recipe 2.', 'https://cookieandkate.com/images/2015/11/healthy-honey-whole-wheat-banana-bread-2.jpg'),
+    new Recipe('Banana Bread', 'this is my favorite banana bread recipe 3.', 'https://cookieandkate.com/images/2020/05/healthy-banana-bread-recipe-5.jpg'),
   ];
   constructor() { }
 

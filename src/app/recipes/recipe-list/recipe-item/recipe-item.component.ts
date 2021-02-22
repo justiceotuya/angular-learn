@@ -7,7 +7,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class RecipeItemComponent implements OnInit {
 
-  @Input() recipes;
+  @Input() recipe: {
+    name: string,
+    description: string,
+    imagePath: string,
+  };
   constructor() { }
 
   ngOnInit(): void {
